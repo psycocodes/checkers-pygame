@@ -3,26 +3,17 @@
 <p align="center">
   <img src="visuals/banner.png" width="100%" alt="Checkers Game Banner">
 </p>
+<!-- BEGIN LATEST DOWNLOAD BUTTON -->
+
+[![Download Checkers.exe](https://custom-icon-badges.demolab.com/badge/-Download%20Checkers.exe-blue?style=for-the-badge&logo=download&logoColor=white "Download Checkers.exe")](https://github.com/psycocodes/checkers-pygame/releases/latest)
+
+<!-- END LATEST DOWNLOAD BUTTON -->
 
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Powered%20by-Pygame-green?style=for-the-badge)
 
-A classic checkers game built with Python and Pygame, featuring an intelligent AI opponent and modern graphics.
 
-## Download
-
-### Ready to Play?
-
-<p>
-Get the latest executable version
-  <a href="https://github.com/psycocodes/checkers-pygame/releases/latest">
-    <img src="https://img.shields.io/badge/Download-Checkers.exe-brightgreen?style=for-the-badge&logo=download&logoColor=white" alt="Download Checkers.exe">
-  </a>
-</p>
-
-**System Requirements:** Windows 7/8/10/11
-
-Or build from source using the installation instructions below.
+A classic checkers game built with Python and Pygame, featuring an intelligent AI opponent.
 
 ## Installation
 
@@ -50,6 +41,7 @@ Or build from source using the installation instructions below.
    ```bash
    python main.py
    ```
+
 ## Features
 
 - Interactive gameplay with classic checkers rules
@@ -96,7 +88,6 @@ The game implements the Minimax algorithm with alpha-beta pruning for the AI opp
 - Pieces become kings when reaching the opposite end
 - Kings can move both forward and backward
 - Win by capturing all opponent pieces or blocking their moves
-
 
 ## Project Structure
 
