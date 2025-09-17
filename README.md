@@ -13,9 +13,8 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 
 ### Ready to Play?
 
-Get the latest executable version - no Python installation required!
-
-<p align="center">
+<p>
+Get the latest executable version
   <a href="https://github.com/psycocodes/checkers-pygame/releases/latest">
     <img src="https://img.shields.io/badge/Download-Checkers.exe-brightgreen?style=for-the-badge&logo=download&logoColor=white" alt="Download Checkers.exe">
   </a>
@@ -24,14 +23,6 @@ Get the latest executable version - no Python installation required!
 **System Requirements:** Windows 7/8/10/11
 
 Or build from source using the installation instructions below.
-
-## Features
-
-- Interactive gameplay with classic checkers rules
-- AI opponent with multiple difficulty levels
-- Custom graphics and animations
-- Particle effects and visual feedback
-- Sound effects and background music
 
 ## Installation
 
@@ -59,6 +50,13 @@ Or build from source using the installation instructions below.
    ```bash
    python main.py
    ```
+## Features
+
+- Interactive gameplay with classic checkers rules
+- AI opponent with multiple difficulty levels
+- Custom graphics and animations
+- Particle effects and visual feedback
+- Sound effects and background music
 
 ## Screenshots
 
@@ -99,11 +97,6 @@ The game implements the Minimax algorithm with alpha-beta pruning for the AI opp
 - Kings can move both forward and backward
 - Win by capturing all opponent pieces or blocking their moves
 
-## Controls
-
-- **Mouse Click**: Select and move pieces
-- **ESC**: Exit game or return to menu
-- **Difficulty Selection**: Choose AI difficulty before starting
 
 ## Project Structure
 
