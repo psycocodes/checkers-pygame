@@ -8,7 +8,7 @@
 ![Pygame](https://img.shields.io/badge/Powered%20by-Pygame-green?style=for-the-badge)
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
 
-[![Download Checkers.exe](https://custom-icon-badges.demolab.com/badge/-Download%20Checkers.exe-blue?style=for-the-badge&logo=download&logoColor=white "Download Checkers.exe")](https://github.com/psycocodes/checkers-pygame/releases/latest)
+[![Download Checkers.exe](https://custom-icon-badges.demolab.com/badge/-Download%20Checkers.exe-blue?style=for-the-badge&logo=download&logoColor=white "Download Checkers.exe")](https://github.com/psycocodes/checkers-pygame/releases/download/v1.0/Checkers.exe)
 
 <!-- END LATEST DOWNLOAD BUTTON -->
 
