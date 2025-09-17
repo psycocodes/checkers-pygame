@@ -46,14 +46,14 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 
 ## Screenshots
 
-<table width="100%">
+<table width="100%" style="border: none;">
   <tr>
-    <td width="50%"><img src="screenshots/01.png" width="100%" alt="Main Menu"/></td>
-    <td width="50%"><img src="screenshots/02.png" width="100%" alt="Gameplay"/></td>
+    <td width="50%" style="border: none;"><img src="screenshots/01.png" width="100%" alt="Main Menu"/></td>
+    <td width="50%" style="border: none;"><img src="screenshots/02.png" width="100%" alt="Gameplay"/></td>
   </tr>
   <tr>
-    <td width="50%"><img src="screenshots/03.png" width="100%" alt="Mid-Game"/></td>
-    <td width="50%"><img src="screenshots/04.png" width="100%" alt="Victory Screen"/></td>
+    <td width="50%" style="border: none;"><img src="screenshots/03.png" width="100%" alt="Mid-Game"/></td>
+    <td width="50%" style="border: none;"><img src="screenshots/04.png" width="100%" alt="Victory Screen"/></td>
   </tr>
 </table>
 
@@ -61,10 +61,10 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 
 The game implements the Minimax algorithm with alpha-beta pruning for the AI opponent. This algorithm evaluates all possible future game states to make optimal moves.
 
-<table width="100%">
+<table width="100%" style="border: none; table-layout: fixed;">
   <tr>
-    <td width="50%"><img src="visuals/checkers.png" width="100%" alt="Checkers Game"/></td>
-    <td width="50%"><img src="visuals/minimax.png" width="100%" alt="Minimax Algorithm"/></td>
+    <td width="50%" style="border: none; padding: 0;"><img src="visuals/checkers.png" width="100%" alt="Checkers Game"/></td>
+    <td width="50%" style="border: none; padding: 0;"><img src="visuals/minimax.png" width="100%" alt="Minimax Algorithm"/></td>
   </tr>
 </table>
 
