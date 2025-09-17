@@ -9,6 +9,22 @@
 
 A classic checkers game built with Python and Pygame, featuring an intelligent AI opponent and modern graphics.
 
+## Download
+
+### Ready to Play?
+
+Get the latest executable version - no Python installation required!
+
+<p align="center">
+  <a href="https://github.com/psycocodes/checkers-pygame/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Checkers.exe-brightgreen?style=for-the-badge&logo=download&logoColor=white" alt="Download Checkers.exe">
+  </a>
+</p>
+
+**System Requirements:** Windows 7/8/10/11
+
+Or build from source using the installation instructions below.
+
 ## Features
 
 - Interactive gameplay with classic checkers rules
