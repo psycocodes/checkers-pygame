@@ -3,14 +3,14 @@
 <p align="center">
   <img src="visuals/banner.png" width="100%" alt="Checkers Game Banner">
 </p>
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Powered%20by-Pygame-green?style=for-the-badge)
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
 
 [![Download Checkers.exe](https://custom-icon-badges.demolab.com/badge/-Download%20Checkers.exe-blue?style=for-the-badge&logo=download&logoColor=white "Download Checkers.exe")](https://github.com/psycocodes/checkers-pygame/releases/latest)
 
 <!-- END LATEST DOWNLOAD BUTTON -->
-
-![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Powered%20by-Pygame-green?style=for-the-badge)
 
 
 A classic checkers game built with Python and Pygame, featuring an intelligent AI opponent.
