@@ -117,13 +117,16 @@ class ScreenManager:
 
         if self.game.turn == WHITE and self.flag:
             value, new_board = minimax(self.game.get_board(), self.difficulty, True, self.game)
-            piece_row, piece_col, row, col = move_minimax(self.game.get_board(), new_board)
             
-            # Check if we got valid coordinates
-            if piece_row is not None and piece_col is not None and row is not None and col is not None:
-                piece = self.game.get_board().get_piece(piece_row, piece_col)
-                if piece != 0 and hasattr(piece, 'col'):  # Ensure it's a valid piece object
-                    self.game.ai_move(piece, row, col)
+            # Check if minimax returned a valid board
+            if new_board is not None:
+                piece_row, piece_col, row, col = move_minimax(self.game.get_board(), new_board)
+                
+                # Check if we got valid coordinates
+                if piece_row is not None and piece_col is not None and row is not None and col is not None:
+                    piece = self.game.get_board().get_piece(piece_row, piece_col)
+                    if piece != 0 and hasattr(piece, 'col'):  # Ensure it's a valid piece object
+                        self.game.ai_move(piece, row, col)
         
         if self.game.winner():
             self.winner = self.game.winner()

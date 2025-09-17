@@ -58,6 +58,10 @@ def draw_moves(game, board, piece):
 
 
 def move_minimax(old_board, new_board):
+    # Safety check for None board
+    if old_board is None or new_board is None:
+        return None, None, None, None
+        
     i_pieces = old_board.get_all_pieces(WHITE)
     f_pieces = new_board.get_all_pieces(WHITE)
     i_moves = [(x.row, x.col) for x in i_pieces]

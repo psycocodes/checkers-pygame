@@ -30,18 +30,21 @@ A fully-featured checkers game built with Python and Pygame, featuring stunning 
 ## 📦 Installation
 
 ### Prerequisites
+
 - Python 3.7 or higher
 - Pygame library
 
 ### Quick Start
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/psycocodes/checkers-pygame.git
    cd checkers-pygame
    ```
 
 2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -54,16 +57,24 @@ A fully-featured checkers game built with Python and Pygame, featuring stunning 
 ## 🖼️ Screenshots
 
 ### Main Menu
-![Main Menu](screenshots/menu.png)
-*Sleek main menu with difficulty selection and particle effects*
 
-### Gameplay
-![Gameplay](screenshots/gameplay.png)
-*In-game action showing piece selection and possible moves*
+![Main Menu](screenshots/01.png)
+_Sleek main menu with difficulty selection and dynamic particle effects_
+
+### Gameplay - Piece Selection
+
+![Gameplay Selection](screenshots/02.png)
+_Interactive gameplay showing piece selection and highlighted valid moves_
+
+### Mid-Game Action
+
+![Mid-Game](screenshots/03.png)
+_Intense checkers action with AI opponent making strategic moves_
 
 ### Victory Screen
-![Victory Screen](screenshots/victory.png)
-*Victory celebration screen with options to play again*
+
+![Victory Screen](screenshots/04.png)
+_Victory celebration screen with options to play again or quit_
 
 ## 🏗️ Project Structure
 
@@ -140,6 +151,7 @@ Contributions are welcome! Here's how you can help:
 5. Open a Pull Request
 
 ### Areas for Contribution
+
 - 🎮 New game modes (multiplayer, tournaments)
 - 🎨 Additional themes and graphics
 - 🤖 Enhanced AI algorithms
