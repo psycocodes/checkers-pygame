@@ -1,6 +1,8 @@
 # Checkers Game with AI
 
-![Banner](visuals/banner.png)
+<p align="center">
+  <img src="visuals/banner.png" width="100%" alt="Checkers Game Banner">
+</p>
 
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Powered%20by-Pygame-green?style=for-the-badge)
@@ -14,8 +16,6 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 - Custom graphics and animations
 - Particle effects and visual feedback
 - Sound effects and background music
-- Automatic piece promotion to kings
-- Win condition detection
 
 ## Installation
 
@@ -46,14 +46,14 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 
 ## Screenshots
 
-<table>
+<table width="100%">
   <tr>
-    <td><img src="screenshots/01.png" width="300"/></td>
-    <td><img src="screenshots/02.png" width="300"/></td>
+    <td width="50%"><img src="screenshots/01.png" width="100%" alt="Main Menu"/></td>
+    <td width="50%"><img src="screenshots/02.png" width="100%" alt="Gameplay"/></td>
   </tr>
   <tr>
-    <td><img src="screenshots/03.png" width="300"/></td>
-    <td><img src="screenshots/04.png" width="300"/></td>
+    <td width="50%"><img src="screenshots/03.png" width="100%" alt="Mid-Game"/></td>
+    <td width="50%"><img src="screenshots/04.png" width="100%" alt="Victory Screen"/></td>
   </tr>
 </table>
 
