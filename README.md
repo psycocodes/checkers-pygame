@@ -61,7 +61,12 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
 
 The game implements the Minimax algorithm with alpha-beta pruning for the AI opponent. This algorithm evaluates all possible future game states to make optimal moves.
 
-![Minimax Algorithm](visuals/minimax.png)
+<table width="100%">
+  <tr>
+    <td width="50%"><img src="visuals/checkers.png" width="100%" alt="Checkers Game"/></td>
+    <td width="50%"><img src="visuals/minimax.png" width="100%" alt="Minimax Algorithm"/></td>
+  </tr>
+</table>
 
 ### How it works:
 
