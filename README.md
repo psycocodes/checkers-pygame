@@ -42,6 +42,36 @@ A classic checkers game built with Python and Pygame, featuring an intelligent A
    python main.py
    ```
 
+## Build a release for itch.io
+
+The game is distributed as a desktop executable built with PyInstaller. Build
+on each operating system you want to support; PyInstaller does not cross-build
+Windows, Linux, and macOS executables.
+
+1. Install the runtime and build dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   pip install -r requirements-build.txt
+   ```
+
+2. Build the release archive:
+
+   ```bash
+   python build_release.py
+   ```
+
+   This creates `releases/Checkers-windows.zip` on Windows (or a corresponding
+   Linux/macOS archive). The archive contains the executable and bundled game
+   assets, so players do not need Python or Pygame installed.
+
+3. In the itch.io project dashboard, create a downloadable file and upload the
+   archive. Mark it for the matching platform and architecture, then set the
+   launch file to `Checkers.exe` on Windows or `Checkers` on Linux/macOS.
+
+For Windows, build from a Windows machine and upload the resulting
+`Checkers-windows.zip`. Test the extracted executable before publishing.
+
 ## Features
 
 - Interactive gameplay with classic checkers rules
